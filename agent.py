@@ -11,7 +11,6 @@ import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv()
-os.environ['OPENAI_API_KEY'] = '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'
 
 CHAT_MODEL = 'gpt-3.5-turbo'
 class Agent:
